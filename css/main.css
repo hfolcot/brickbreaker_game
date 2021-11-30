@@ -1,0 +1,15 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+body img {
+  display: none;
+}
+body #gamecanvas {
+  border: 1px solid black;
+  background: linear-gradient(180deg, #c9c9ff, #9acd9a);
+}
